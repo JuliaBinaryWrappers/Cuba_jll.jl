@@ -1,6 +1,6 @@
 name = "Cuba_jll"
 uuid = "3bed1096-5ab2-53a1-92e2-6c1cc31d0f4b"
-version = "4.2.0+0"
+version = "4.2.0+1"
 
 [deps]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
