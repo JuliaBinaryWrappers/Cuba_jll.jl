@@ -1,115 +1,143 @@
 [[Cuba]]
 arch = "aarch64"
-git-tree-sha1 = "45311708ab6e7d5d12a014e575182c82e8bb18ec"
-libc = "glibc"
-os = "linux"
-
-    [[Cuba.download]]
-    sha256 = "2c4347b7c5f29119d5bb51680a03e477bde3cea4b9bc444f517699b21c2dc31c"
-    url = "https://github.com/JuliaBinaryWrappers/Cuba_jll.jl/releases/download/Cuba-v4.2.1+0/Cuba.v4.2.1.aarch64-linux-gnu.tar.gz"
-[[Cuba]]
-arch = "aarch64"
-git-tree-sha1 = "47a50effba52fa0744fa0f88d779a26bbc47fb01"
-libc = "musl"
-os = "linux"
-
-    [[Cuba.download]]
-    sha256 = "26624cb28ea9b3a9bb14e247a2c574728190bd753988bc70f5cc79ae92dc7c57"
-    url = "https://github.com/JuliaBinaryWrappers/Cuba_jll.jl/releases/download/Cuba-v4.2.1+0/Cuba.v4.2.1.aarch64-linux-musl.tar.gz"
-[[Cuba]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "3df60790fb7cdea92d1dda7de0e23c9d1e8accde"
-libc = "glibc"
-os = "linux"
-
-    [[Cuba.download]]
-    sha256 = "6b1a5bf521e039b4f6985bec816ce2e6043ed4c6b190e1f2d58702e40a9f988f"
-    url = "https://github.com/JuliaBinaryWrappers/Cuba_jll.jl/releases/download/Cuba-v4.2.1+0/Cuba.v4.2.1.armv7l-linux-gnueabihf.tar.gz"
-[[Cuba]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "7b6ca1f11f1eba08c18794403110b3b075c2e613"
-libc = "musl"
-os = "linux"
-
-    [[Cuba.download]]
-    sha256 = "362cc5eb4a1771f92b4a3e613d839e10d7d0cf244a113935605291acc360b994"
-    url = "https://github.com/JuliaBinaryWrappers/Cuba_jll.jl/releases/download/Cuba-v4.2.1+0/Cuba.v4.2.1.armv7l-linux-musleabihf.tar.gz"
-[[Cuba]]
-arch = "i686"
-git-tree-sha1 = "88fb5c8e7a1837de198bf63c54ed45065b7505c0"
-libc = "glibc"
-os = "linux"
-
-    [[Cuba.download]]
-    sha256 = "1a10e94fecf28c591f74b008bf746bd8663a70c3182c48e03d33159e60386f17"
-    url = "https://github.com/JuliaBinaryWrappers/Cuba_jll.jl/releases/download/Cuba-v4.2.1+0/Cuba.v4.2.1.i686-linux-gnu.tar.gz"
-[[Cuba]]
-arch = "i686"
-git-tree-sha1 = "314edbafc7c3da9e3d8718fcd859b3cd39711a07"
-libc = "musl"
-os = "linux"
-
-    [[Cuba.download]]
-    sha256 = "153e8c943476f2345316cdfec154393fe4820d19750b7d2e97406e4ffcca4b34"
-    url = "https://github.com/JuliaBinaryWrappers/Cuba_jll.jl/releases/download/Cuba-v4.2.1+0/Cuba.v4.2.1.i686-linux-musl.tar.gz"
-[[Cuba]]
-arch = "i686"
-git-tree-sha1 = "5d63e6698b77940519c186dafe96c2dae474e7a6"
-os = "windows"
-
-    [[Cuba.download]]
-    sha256 = "6bcae7a3c1e2b12635029f5e0144d7592f844c3455ec39f0bd93c6d52e4e7c15"
-    url = "https://github.com/JuliaBinaryWrappers/Cuba_jll.jl/releases/download/Cuba-v4.2.1+0/Cuba.v4.2.1.i686-w64-mingw32.tar.gz"
-[[Cuba]]
-arch = "powerpc64le"
-git-tree-sha1 = "e0070d458ee7d03799e0caad429d0037e8ddf47c"
-libc = "glibc"
-os = "linux"
-
-    [[Cuba.download]]
-    sha256 = "62194e3f402e2825f4ae5488d959c8fcdc618df3178b1f411333cd633910e2ff"
-    url = "https://github.com/JuliaBinaryWrappers/Cuba_jll.jl/releases/download/Cuba-v4.2.1+0/Cuba.v4.2.1.powerpc64le-linux-gnu.tar.gz"
-[[Cuba]]
-arch = "x86_64"
-git-tree-sha1 = "89bdf6ee66343f6ef9e10688f5e3f868fd84f97b"
+git-tree-sha1 = "6813ca4fcac083a88da1c6fedaf5b4090e10e677"
 os = "macos"
 
     [[Cuba.download]]
-    sha256 = "7cfd69219792b30cdecb2dcaef0b6610e69a4f34670c9423526c75073a03bb55"
-    url = "https://github.com/JuliaBinaryWrappers/Cuba_jll.jl/releases/download/Cuba-v4.2.1+0/Cuba.v4.2.1.x86_64-apple-darwin.tar.gz"
+    sha256 = "a2434b4f7f4b3d3f9af04aaaab01e0dae7d1bd23ec442b4d905ab1e152d0d303"
+    url = "https://github.com/JuliaBinaryWrappers/Cuba_jll.jl/releases/download/Cuba-v4.2.2+0/Cuba.v4.2.2.aarch64-apple-darwin.tar.gz"
 [[Cuba]]
-arch = "x86_64"
-git-tree-sha1 = "f4a1ea4bd67a7e52f96cc1d707d4d634cf19d41a"
+arch = "aarch64"
+git-tree-sha1 = "5941a1364458dd2d5a736e605f5d4cef7bd8c3a9"
 libc = "glibc"
 os = "linux"
 
     [[Cuba.download]]
-    sha256 = "9de79e0d1ce90d3389605277d1d14a002dff4903b0c72a142119f4924a9f6873"
-    url = "https://github.com/JuliaBinaryWrappers/Cuba_jll.jl/releases/download/Cuba-v4.2.1+0/Cuba.v4.2.1.x86_64-linux-gnu.tar.gz"
+    sha256 = "44eac721bba7c0acf2d5e34327d38e2a1a85c8b52f251f787092e97e3a7cfe36"
+    url = "https://github.com/JuliaBinaryWrappers/Cuba_jll.jl/releases/download/Cuba-v4.2.2+0/Cuba.v4.2.2.aarch64-linux-gnu.tar.gz"
 [[Cuba]]
-arch = "x86_64"
-git-tree-sha1 = "86a9b4d3fedcaaa8fc452dab4183b4dddb97e48a"
+arch = "aarch64"
+git-tree-sha1 = "f9fa9441c5709032cffd180c2cb0c1e00c8abae8"
 libc = "musl"
 os = "linux"
 
     [[Cuba.download]]
-    sha256 = "d307c3ae64a33217855020065abe9ce7c2c3a3e7c5d5b08086eb95b5e69b57e3"
-    url = "https://github.com/JuliaBinaryWrappers/Cuba_jll.jl/releases/download/Cuba-v4.2.1+0/Cuba.v4.2.1.x86_64-linux-musl.tar.gz"
+    sha256 = "4ffda9747c14f92a3f353722e3ef8d200a1c47530b555342f1376524464466af"
+    url = "https://github.com/JuliaBinaryWrappers/Cuba_jll.jl/releases/download/Cuba-v4.2.2+0/Cuba.v4.2.2.aarch64-linux-musl.tar.gz"
 [[Cuba]]
-arch = "x86_64"
-git-tree-sha1 = "4e2a52e07567268ce16c7003444633b481142465"
-os = "freebsd"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "8e9fe7bbd17d13a15039ca77eee1426dfb1225bc"
+libc = "glibc"
+os = "linux"
 
     [[Cuba.download]]
-    sha256 = "c5852db3a3ca2855f4d51241ae1ac96fffe885a37d0199501f68baaa8c818bd1"
-    url = "https://github.com/JuliaBinaryWrappers/Cuba_jll.jl/releases/download/Cuba-v4.2.1+0/Cuba.v4.2.1.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "6f0042236480277832fad6f3cbb831c14036f50d6c3dd36d9589336c43820c93"
+    url = "https://github.com/JuliaBinaryWrappers/Cuba_jll.jl/releases/download/Cuba-v4.2.2+0/Cuba.v4.2.2.armv6l-linux-gnueabihf.tar.gz"
 [[Cuba]]
-arch = "x86_64"
-git-tree-sha1 = "01edc7ed47c69192f672340de668d34c64af90fa"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "3bd8df653a0a5a3626fa817aad32423061447167"
+libc = "musl"
+os = "linux"
+
+    [[Cuba.download]]
+    sha256 = "8aaadb211b0cc1a7ff7a2a9eec44d95cb02e1fd73d074b629ac34ffa06d69d6f"
+    url = "https://github.com/JuliaBinaryWrappers/Cuba_jll.jl/releases/download/Cuba-v4.2.2+0/Cuba.v4.2.2.armv6l-linux-musleabihf.tar.gz"
+[[Cuba]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "be26755a9f2681ed56b233ce08726228af7146a8"
+libc = "glibc"
+os = "linux"
+
+    [[Cuba.download]]
+    sha256 = "6255a247ec329a3b6d56c2e266e85864f6df49cbc5acbc83321ffb348198d0bb"
+    url = "https://github.com/JuliaBinaryWrappers/Cuba_jll.jl/releases/download/Cuba-v4.2.2+0/Cuba.v4.2.2.armv7l-linux-gnueabihf.tar.gz"
+[[Cuba]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "a095cdfd741b91def38a1195d18c25d46e2b18af"
+libc = "musl"
+os = "linux"
+
+    [[Cuba.download]]
+    sha256 = "94db4c99874ee8306ad8e9d26d5384218722d6a878e3f3579e30e6654e19a8ad"
+    url = "https://github.com/JuliaBinaryWrappers/Cuba_jll.jl/releases/download/Cuba-v4.2.2+0/Cuba.v4.2.2.armv7l-linux-musleabihf.tar.gz"
+[[Cuba]]
+arch = "i686"
+git-tree-sha1 = "21eb7e3bc5cc7525120c709fb28f5d42b09f4761"
+libc = "glibc"
+os = "linux"
+
+    [[Cuba.download]]
+    sha256 = "046420cd01b161474e220a9037c987eba01b747a68fb81f0d561b5e45ace0d7a"
+    url = "https://github.com/JuliaBinaryWrappers/Cuba_jll.jl/releases/download/Cuba-v4.2.2+0/Cuba.v4.2.2.i686-linux-gnu.tar.gz"
+[[Cuba]]
+arch = "i686"
+git-tree-sha1 = "00de36af257e8c5c482297b6fe22a13bce9462cc"
+libc = "musl"
+os = "linux"
+
+    [[Cuba.download]]
+    sha256 = "eda84ac4846a2e299b1c42da22af6ec735961c4f5872120b9d89a13525f77012"
+    url = "https://github.com/JuliaBinaryWrappers/Cuba_jll.jl/releases/download/Cuba-v4.2.2+0/Cuba.v4.2.2.i686-linux-musl.tar.gz"
+[[Cuba]]
+arch = "i686"
+git-tree-sha1 = "2dca541a3a383cc98d3879f83ba8ad79c5924bed"
 os = "windows"
 
     [[Cuba.download]]
-    sha256 = "b3513dda7811bed71823c284bb8c9ec827c6be538b7f5243f2fe6a07410eb312"
-    url = "https://github.com/JuliaBinaryWrappers/Cuba_jll.jl/releases/download/Cuba-v4.2.1+0/Cuba.v4.2.1.x86_64-w64-mingw32.tar.gz"
+    sha256 = "cface4036996d78fde4990031a629ff85b0d2e5753a91fdccc8d7c2e290b28e5"
+    url = "https://github.com/JuliaBinaryWrappers/Cuba_jll.jl/releases/download/Cuba-v4.2.2+0/Cuba.v4.2.2.i686-w64-mingw32.tar.gz"
+[[Cuba]]
+arch = "powerpc64le"
+git-tree-sha1 = "e208c14a94997e9196e0854abe002f8778000dc8"
+libc = "glibc"
+os = "linux"
+
+    [[Cuba.download]]
+    sha256 = "9106b8d15078c4ce5235dbede3871f13911530a4e51b120e09bd183155f11b96"
+    url = "https://github.com/JuliaBinaryWrappers/Cuba_jll.jl/releases/download/Cuba-v4.2.2+0/Cuba.v4.2.2.powerpc64le-linux-gnu.tar.gz"
+[[Cuba]]
+arch = "x86_64"
+git-tree-sha1 = "e9c9d8e7cc85f83db3e115731cf1fec7dad98f32"
+os = "macos"
+
+    [[Cuba.download]]
+    sha256 = "b767719aea99b4cb83e4091dcfea90f2dfa9a532ce96c05bb12eb6d0f77d85f2"
+    url = "https://github.com/JuliaBinaryWrappers/Cuba_jll.jl/releases/download/Cuba-v4.2.2+0/Cuba.v4.2.2.x86_64-apple-darwin.tar.gz"
+[[Cuba]]
+arch = "x86_64"
+git-tree-sha1 = "f8d9dba7cbae70f6d961447bd8d96ee5f6045440"
+libc = "glibc"
+os = "linux"
+
+    [[Cuba.download]]
+    sha256 = "0c3aaf6e953b9e57e24a7f70cd8ca63623a72ef1880b67d9af4f78c9c7f481ef"
+    url = "https://github.com/JuliaBinaryWrappers/Cuba_jll.jl/releases/download/Cuba-v4.2.2+0/Cuba.v4.2.2.x86_64-linux-gnu.tar.gz"
+[[Cuba]]
+arch = "x86_64"
+git-tree-sha1 = "50ba4af17ac22e087551d359cb3eed212e9bf24f"
+libc = "musl"
+os = "linux"
+
+    [[Cuba.download]]
+    sha256 = "b33b56c5a9ee2835ef6be461e796e7a81060a5e7622e3ca09dfefdfa4d070505"
+    url = "https://github.com/JuliaBinaryWrappers/Cuba_jll.jl/releases/download/Cuba-v4.2.2+0/Cuba.v4.2.2.x86_64-linux-musl.tar.gz"
+[[Cuba]]
+arch = "x86_64"
+git-tree-sha1 = "51e51600ec01a5dc3563ade4733a5e186f50cd0c"
+os = "freebsd"
+
+    [[Cuba.download]]
+    sha256 = "39979d77c79ae542a303c8cca1e180d10ff252b1ed37504137b0c4f575cc3fa8"
+    url = "https://github.com/JuliaBinaryWrappers/Cuba_jll.jl/releases/download/Cuba-v4.2.2+0/Cuba.v4.2.2.x86_64-unknown-freebsd.tar.gz"
+[[Cuba]]
+arch = "x86_64"
+git-tree-sha1 = "db988ae0ca9539daba60e7810e78cdd8135bbe7a"
+os = "windows"
+
+    [[Cuba.download]]
+    sha256 = "3e0f09158c75a4b5fe5736ecd0de41c8d23334d459c221c4c173f0a99a969d47"
+    url = "https://github.com/JuliaBinaryWrappers/Cuba_jll.jl/releases/download/Cuba-v4.2.2+0/Cuba.v4.2.2.x86_64-w64-mingw32.tar.gz"
